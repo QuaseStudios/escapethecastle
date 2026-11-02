@@ -93,26 +93,6 @@ Para criar ou alterar salas, edite a lista `ROOMS` em `public/js/game.js`. Cada 
 
 A posição inicial do monge (`player`) e dos totens (`totems`) é definida junto com o mapa.
 
-## Testar no computador
-
-Abrir o `index.html` com dois cliques pode bloquear as imagens. Use um servidor local, dentro da pasta `public`:
-
-```
-cd public
-python -m http.server 8000
-```
-
-Depois abra http://localhost:8000 no navegador.
-
-## Publicar na Cloudflare
-
-1. No painel da Cloudflare, abra **Workers & Pages → Create → Pages → Upload assets**.
-2. Dê o nome `escapethecastle` ao projeto.
-3. Arraste a pasta `public` e clique em **Deploy**.
-4. No projeto, abra **Custom domains → Set up a custom domain** e informe `escapethecastle.quasegames.com.br`.
-
-Para atualizar, abra o mesmo projeto, clique em **Create deployment** e envie a pasta `public` de novo.
-
 ## Versões
 
 O número segue esta regra:
