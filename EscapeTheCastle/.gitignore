@@ -1,0 +1,20 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Pacotes gerados
+*.zip
+*.rar
+
+# Vídeos de apresentação do trabalho original
+*.wmv
+
+# Cloudflare e Node
+.wrangler/
+node_modules/

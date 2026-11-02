@@ -1,0 +1,6 @@
+/assets/img/*
+  Cache-Control: public, max-age=2592000
+/js/*
+  Cache-Control: public, max-age=3600
+/css/*
+  Cache-Control: public, max-age=3600

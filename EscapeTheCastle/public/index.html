@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Escape The Castle | Quase Games</title>
+<meta name="description" content="Fuja das salas do castelo: empurre o totem até o medalhão certo e abra a porta. Jogo de quebra-cabeça em visão isométrica da Quase Games, grátis no navegador.">
+<meta name="theme-color" content="#14100c">
+<meta property="og:title" content="Escape The Castle">
+<meta property="og:description" content="Empurre o totem até o medalhão certo e fuja do castelo. Grátis, direto no navegador.">
+<meta property="og:image" content="https://escapethecastle.quasegames.com.br/capa-16x9.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header id="bar">
+  <a id="back" href="https://quasegames.com.br">&larr; Quase Games</a>
+  <span id="title">Escape The Castle</span>
+  <button id="sound" type="button" aria-label="Ligar ou desligar o som">Som: ligado</button>
+</header>
+<main id="wrap">
+  <canvas id="game" width="600" height="600" aria-label="Escape The Castle"></canvas>
+</main>
+<div id="controls" aria-hidden="true">
+  <button class="side" id="btnPull" type="button">Puxar</button>
+  <div id="pad">
+    <button class="dir" data-dir="left" type="button" aria-label="Noroeste"><i class="arrow nw"></i></button>
+    <button class="dir" data-dir="up" type="button" aria-label="Nordeste"><i class="arrow ne"></i></button>
+    <button class="dir" data-dir="down" type="button" aria-label="Sudoeste"><i class="arrow sw"></i></button>
+    <button class="dir" data-dir="right" type="button" aria-label="Sudeste"><i class="arrow se"></i></button>
+  </div>
+  <button class="side" id="btnMenu" type="button">Menu</button>
+  <button class="side" id="btnRestart" type="button">Reiniciar</button>
+</div>
+<script src="js/game.js"></script>
+</body>
+</html>
